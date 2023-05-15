@@ -7,6 +7,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const deleteButton = document.querySelector("#delete-button")
   deleteButton.addEventListener("click",handleDelete)
 
+
+
 })
 
 
@@ -45,6 +47,7 @@ const handleForm = function(event) {
 
 }
 
-const handleDeleteAllClick = function (event) {
+const handleDelete = function (event) {
+  console.log('aaaaaaa')
   const readingList = document.querySelector('#reading-list');
   readingList.innerHTML = '';}
