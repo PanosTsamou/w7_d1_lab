@@ -1,0 +1,22 @@
+body {
+  font-family: Palatino;
+}
+
+
+#reading-list {
+
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+#reading-list li {
+  background-color: rgba(197, 241, 255, 0.417);
+  border: solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 20vw;
+  height: 20vw;
+  align-items: center;
+  justify-content: center;
+}
